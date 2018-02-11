@@ -110,12 +110,3 @@ body{
 	height:100%;
 	margin-top:-5px;
 }
-/* responsive code--*/
-@media screen and (max-width: 900px){
-	#Choco_right_arrow {
-		left: 13%;
-	}
-	#Choco_left_arrow {
-       left: -14%;
-	}
-}

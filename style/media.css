@@ -1,63 +1,264 @@
-@media   (max-width:412px) and (min-width:360px){
-	
-	body {
-		overflow-x:scroll;
-		width: 110%;
-	}
+/*medium screen*/
+@media (min-width:992px) and (max-width:1199px){
 	.right_menu {
-		margin-left: 2%;
-		margin-top: 11%;         
+		width: 60%;
+		margin-left: 40%;
 	}
-	.name {
-		margin-left: 25%;
+	.section_body_all {
+		margin-left: 1%;
 	}
-	.feature_body_left , .feature_body_right  {
-		width:50%
-	}
-	.feature_body_right {
-		margin-top: -25%;
-	}
-	#our_work_section {
-		height:  1240px;
+	.section_body_item {
+		width: 24%;
+		margin-left: 0%;
 	}
 	.feature_body_left {
-		margin-left: 10%;
+		width: 55%;
 	}
-	.feature_body_right img{
+	.feature_body_right {
+		margin-top: -20%;
+	}
+	.feature_body_right  img{
+		width: 90%;
+	}
+	#fact_section {
+		margin-top: -6.8%;
+	}
+	.fact_icon .icon {
+		width: 5%;
+	}
+	.fact_icon .icon3 {
+		margin-left: 13.5%;
+	}
+	.icon_descripation {
+		margin-left: 7%;
+	}
+	.simplefilter li {
+		margin-left: -1em;
+	}
+	.filtr-container {
+		margin-left: 13%;
+	}
+	.filtr-item {
+    	width:41%
+	}
+	.buttom_cap {
+		width: 43%;
+	}
+	#testimonials {
+		margin-top: 73em;
+	}
+	.testimonials_content {
+		margin-top: -20%;
+	}
+	.w3-left_ {
+		margin-top: -28%;
+	}
+	#pricing {
 		margin-top: 10%;
 	}
 	.template-content {
-		margin-right: 8%;
+    	margin-left: 2%;
+    }
+    #template .purchase {
+    	margin-right: 10%;
+    }
+    #contact .massage {
+    	width: 67%;
+    }
+    .footer-section {
+        width: 25%;	
+        margin-left: 1px;
+    }
+    .footer_body {
+    	margin-left: 2%;
+    }
+    .sec {
+    	width: 16%;
+    	margin-left: 2%;
+    }
+}
+
+/*small screen*/
+@media (min-width:768px) and (max-width:991px){
+	.name {
+		margin-left: 10%
+	}
+ 	.right_menu {
+		width: 70%;
+		margin-left: 27%;
+	}
+	.w3-left {
+		margin-top: -46%;
+	}
+	.feature_body_right img {
+		width: 90%;
+	}
+	.purchase_now_button {
+		width: 50%;
+	}
+	.fact_icon {
+		width: 70%;
+		margin-left: -5%;
+		width: 100%;
+	}
+	.fact_icon .icon {
+		margin-left: 12%;
+
+	}
+	.fact_icon .icon2 {
+		margin-left: 9%;
+	}
+	.fact_descripation {
+		margin-left: -1%;
+	}
+	.icon_descripation {
+		font-size: 15px;
+		margin-left: 8%;
+	}
+	#testimonials {
+		margin-top: 67em;
+	}
+	.site-testimonials .section_name {
+		margin-top: -40%;
+	}
+	#pricing {
+		margin-top: 157px;
+	}
+	.simple_pricing_data {
+		width: 19%;
+	}
+	#pricing .section-body {
+		margin-left: 3%;
+	}
+	.template-content {
+		margin-left: 5%;
+	}
+	.template-content .purchase {
+		margin-top: 2%;
 	}
 	.footer_body {
-		margin-left: 4%;
-	}
-}
-
-@media screen and (max-width:800px) {
-	.name {
-		margin-left: 4%;
-	}
-	.right_menu {
-		width: 79%;
-    	margin-top: 33px;
-    	margin-left: 22%;
-	}
-
-	.right_menu .menu {
 		margin-left: 2%;
 	}
-
-	.w3-left {
-		margin-top: -64%;
+	.con_ {
+		width: 26%;
 	}
-
-	.slid_dot {
-		margin-top: 50px;
-	}
-	.section_body_item {
-		width: 90%;
-		display: block;
+	footer {
+		height: 320px;
 	}
 }
+/*for mobile*/
+@media (max-width:480px){
+ 	#home ul {
+   		visibility: visible;
+   		margin-top: 5%;
+   }
+   .right_menu {
+   	visibility: hidden;
+   }
+   .w3-left {
+		margin-top: -86%;
+	}
+	#services_section {
+		height: 1612px;
+	}
+	.section_body_item {
+		display: block;
+		width: 70%;
+		margin-left: 9%;
+		margin-top: 2%;
+	}
+	.feature_body_left {
+		width: 90%;
+	}
+	.feature_body_right {
+		float: none;
+		margin-top: 10%;
+		width: 70%;
+	}
+	.feature_body_right img {
+		width: 70%;
+	}
+	#fact_section {
+		margin-top: 5px;
+	}
+	.fact_descripation .icon_descripation {
+		font-size: 12px;
+		margin-left: 5%;
+	}
+	#testimonials {
+		margin-top: 52em;
+	}
+	.site-testimonials .section_name {
+		margin-top: -100%;
+	}
+	.load {
+		width: 100%;
+	}
+	.buttom_cap {
+		height: 44px;
+	}
+	#pricing {
+		margin-top: 230px;
+	}
+	.simple_pricing_data {
+		display: block;
+		width: 62%;
+    	margin-left: 8%;
+	}
+	#template {
+		margin-top: 268%;
+	}
+	.template-content {
+		margin-left: 5%;
+	}
+	.template-content .purchase {
+		margin-top: 2%;
+	}
+	.contact_box {
+		margin-left: 10%;
+	}
+	footer {
+		height: 550px;
+	}
+	.footer-section {
+		float: none;
+		width: 80%;
+	}
+	.footer-section .last {
+		width: 20px;
+		height: 20px;
+	}
+	.sec {
+		float: left;
+		width: 30%;
+	}
+	.con_ {
+		margin-top: 44px;
+	}
+	.con {
+		width: 25px;
+		height: 25px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
